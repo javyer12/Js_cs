@@ -1,43 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style/index.css" />
     <title>Document</title>
 </head>
 <br>
-    <h1 id='greeting'>Asynchronous Practice</h1>
-  
-    <div class="prime_num">
-            <label for="quota">Number of quota:</label>
-            <input type='text' id='quota' name='quota' placeholder='insert prime number'/>
-            </br>
-            <button id="generate_prime">Generate prime number</button>
-            <button id="reload">Reload the page</button>
+<h1 id='greeting'>Asynchronous Practice</h1>
+</br>
 
-            <div id="output"></div>
-        </form>
-    </div>
-    </br>
-<div class="message_form">
-
-    <form>
-        <label>send a message</label>
-        <input type='text' id='greetings' name='greeting' placeholder='text me'/>
-        <button type='button' id='send' onclick="Greetings()" name='send'>Send</button>
-    </form>
-</di v>
-<div draggable="true">
-    <p>this is a draggable</p>
-</div>
 <div id="insert_p">
+    <h5>Text me</h5>
+    <input type="text" class=insert_input" onkeyup="updateText(this.value)">
     <p id="parrafo"></p>
-<input type="text"  onkeyup="updateText(this.value)">
-<br/>
-<a href="./json.html">Use Json</a>
+    <br />
 </div>
-    <script src="./index.js"></script>
+<a class="a" href="./json.html">Use Json</a>
+<script src="../src/index.js"></script>
 
 </body>
+
 </html>

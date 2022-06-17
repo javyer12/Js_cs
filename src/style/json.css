@@ -28,6 +28,7 @@ html {
   h1 {
     font-size: 4rem;
     text-align: center;
+    margin-top: -30px;;
   }
   
   header p {
@@ -55,4 +56,11 @@ html {
     font-size: 2.5rem;
     letter-spacing: -5px;
     margin-bottom: 10px;
+  }
+  .a {
+    text-align: center;
+    margin:40%;
+    opacity: 55%;
+    color: white;
+    text-decoration: none;
   }

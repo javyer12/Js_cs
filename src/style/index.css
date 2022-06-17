@@ -1,0 +1,37 @@
+body {
+  background-image: radial-gradient(
+    circle at 0% 100%,
+    #f347e2 0,
+    #e242e8 16.67%,
+    #cd3eed 33.33%,
+    #b53cf2 50%,
+    #993cf7 66.67%,
+    #763efc 83.33%,
+    #4241ff 100%
+  );
+
+  margin: 10rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.1px);
+  -webkit-backdrop-filter: blur(6.1px);
+  border: 1px solid rgba(224, 206, 206, 1);
+}
+.a {
+  margin: 0 0 50px 47%;
+  opacity: 55%;
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+}
+#insert_p input {
+  background-color: rgb(236, 236, 236);
+  width: 20%;
+  height:25px;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+}
+#insert_p {
+  margin-left: 5%;
+}
