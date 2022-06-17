@@ -1,0 +1,31 @@
+html, body {
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    overflow: visible;
+    height: inherit;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    margin: 0;
+    top: -4px;
+    right: 5px;
+  
+    color: transparent;
+    text-shadow: 0 0 4px white;
+  }
+  .audio {
+    opacity: 5%;
+    width : 10%;
+  }
