@@ -34,7 +34,6 @@ h3 {
 }
 h4 {
   color: rgb(0, 0, 0);
-  content: "\e81a";
   font-size: 80%;
   margin: 1%;
   margin-top: 7px;
@@ -43,6 +42,7 @@ h4 {
 .rolex {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .timer {
   border-radius: 50%;

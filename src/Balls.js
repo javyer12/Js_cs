@@ -25,7 +25,7 @@ function random(min, max) {
 // function to generate random color
 
 function randomRGB() {
-  return `rgb(${random(0, 0)},${random(179, 150)},${random(155, 185)})`;
+  return `rgb(${random(100, 100)},${random(25, 255)},${random(165, 195)})`;
 }
 
 class Ball {
