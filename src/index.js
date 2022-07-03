@@ -37,6 +37,7 @@
 // const EXAMPLE = ["juan  dice  que no puede."]
 // texting.textContent = EXAMPLE[1]
 function updateText(e){
-    let parrafo = document.querySelector("#parrafo");
-    parrafo.innerHTML = e;
-  }
+  var texting = e;
+  let parrafo = document.querySelector("#parrafo");
+  parrafo.innerHTML = texting;
+}
