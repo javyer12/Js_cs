@@ -25,3 +25,27 @@ class Professor extends Person {
 
 const proffesor = new Professor("Juanito", "mate");
 proffesor.introSelf();
+
+
+//Platzi course
+//prototipo con sintaxis de clases
+
+class Student {
+  constructor(name,age, approvedCourses) {
+    this.name = name;
+    this.age = age;
+    this.approvedCourses = approvedCourses;
+  }
+
+  takeCourse(newCourse) {
+    this.approvedCourses.push(newCourse);
+  }
+}
+
+const Rafael = new Student(
+  "Rafael",
+  23,
+  ["matematicas"]
+  );
+
+  console.log(Rafael)
